@@ -208,7 +208,7 @@ header {
 .alert__wrapper>p:nth-child(1)::before {
   content: "";
   position: absolute;
-  background-image: url(../../img/global/shape.svg);
+  background-image: url(../img/global/shape.svg);
   width: 22px;
   height: 19px;
   left: -25px;
@@ -670,7 +670,7 @@ header {
 }
 
 .search__input>button {
-  background-image: url(../../img/global/search.svg);
+  background-image: url(../img/global/search.svg);
   width: 20px;
   height: 20px;
   background-color: transparent;
@@ -786,7 +786,7 @@ header {
 .peculiarities__info__title::before {
   content: "";
   position: absolute;
-  background-image: url(../../img/global/announcements.svg);
+  background-image: url(../img/global/announcements.svg);
   width: 50px;
   height: 50px;
   top: -15px;
@@ -805,7 +805,7 @@ header {
 .connection::before {
   content: "";
   position: absolute;
-  background-image: url(../../img/global/connection.svg);
+  background-image: url(../img/global/connection.svg);
   width: 50px;
   height: 50px;
   top: -15px;
@@ -1065,7 +1065,7 @@ header {
 .payment-btn::before {
   content: "";
   position: absolute;
-  background-image: url(../../img/payment/arrow-payment.svg);
+  background-image: url(../img/payment/arrow-payment.svg);
   width: 15px;
   height: 10px;
   top: 3px;
@@ -1657,6 +1657,18 @@ header {
 
   .social__icon-link {
     margin-right: 15px;
+  }
+}
+
+@media (max-width: 445px) {
+  .payment-btn {
+    width: 100%;
+    margin-top: 15px;
+    margin-right: 0;
+  }
+
+  .payment-btn::before {
+    display: none;
   }
 }
 
